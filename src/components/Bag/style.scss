@@ -1,0 +1,12 @@
+.bag {
+  &__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #9074F2;
+  }
+}

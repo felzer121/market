@@ -1,0 +1,103 @@
+.Auth {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  &__content, &__picture {
+    height: 100%;
+    width: 50%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+  }
+  &__logo, &__form, &__register {
+    max-width: 470px;
+    width: 100%;
+  }
+  &__register {
+    &Title {
+      display: flex;
+      align-items: center;
+
+      &-firstLine {
+        max-width: 22px;
+        background-color: #C4C4C4;
+        width: 100%;
+        height: 1px;
+      }
+      &-line {
+        background-color: #C4C4C4;
+        width: 100%;
+        height: 1px;
+      }
+      &-span {
+        font-family: 'Futura', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #333333;
+        padding: 0 15px;
+        background-color: #ffffff;
+        text-transform: uppercase;
+      }
+    }
+    &-span {
+      font-family: 'Futura', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #333333;
+    }
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-family: 'Futura', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #333333;
+  }
+  &__subAuth {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    &-span {
+      font-family: 'Futura', sans-serif;
+      font-size: 20px;
+      margin-left: 5px;
+      line-height: 26px;
+      color: #828282;
+    }
+  }
+  &__toggle{
+    &-span {
+      font-family: 'Futura', sans-serif;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.16px;
+      color: #828282;
+    }
+  }
+  &__picture {
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__inputBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .MuiFormControl-root {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+}

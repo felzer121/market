@@ -1,0 +1,70 @@
+.homeSlider {
+  margin-top: 20px;
+  position: relative;
+  &__title {
+    font-family: 'Futura', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    color: #31323E;
+    font-weight: 600;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5DEFC;
+    width: 40px;
+    cursor: pointer;
+    transition: .5s;
+    height: 40px;
+    border-radius: 50%;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+    &Icon {
+      color: #8E75DB!important;
+      font-size: 16px;
+    }
+    &:hover {
+      background-color: #927BF2;
+    }
+    &:hover &Icon{
+      color: #ffffff!important;
+    }
+  }
+  &__controller {
+    display: flex;
+  }
+  &__title-box {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__carousel {
+    &-box {
+      display: flex!important;
+      justify-content: space-between;
+    }
+    &-description {
+      margin-top: .5em;
+      line-height: 20px;
+      text-align: center;
+      font-weight: 600;
+      font-family: 'Futura', sans-serif;
+      font-size: 18px;
+      color: #31323E;
+    }
+    &-item {
+      max-width: 144px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    &-picture {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      max-height: 180px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.topCategory {
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    max-width: 230px;
+    border-radius: 20px;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &-description {
+      height: 58px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 200px;
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+      position: absolute;
+      bottom: 0;
+      background-color: #ffffff;
+    }
+    &-title {
+      margin: 0;
+      color: #40404D;
+      font-weight: 600;
+      font-size: 20px;
+      font-family: 'Futura', sans-serif;
+    }
+    &-subtitle {
+      margin: -5px 0 0 0;
+      font-size: 14px;
+      color: #B5B4C6;
+      font-family: 'Futura', sans-serif;
+    }
+  }
+}

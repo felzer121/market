@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  padding: 30px 0;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  &__subTitle {
+    margin: -.5em 0 0 0;
+    font-family: 'Futura', sans-serif;
+    font-size: 16px;
+  }
+  .logo__title {
+    font-family: 'Futura', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+  }
+}

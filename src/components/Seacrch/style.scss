@@ -1,0 +1,13 @@
+.search {
+  margin-left: 30px;
+  input {
+    font-family: 'Futura', sans-serif;
+    background-color: #F0ECFE;
+    color: #7359C2;
+    font-weight: 600;
+  }
+  input::-webkit-input-placeholder { color: #7359C2; }
+  input:-ms-input-placeholder { color: #7359C2; }
+  input::-ms-input-placeholder { color: #7359C2; }
+  input::placeholder { color: #7359C2; }
+}

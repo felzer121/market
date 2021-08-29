@@ -1,0 +1,45 @@
+.carousel{
+  max-width: 825px;
+  box-shadow: 0 0 30px 20px rgba(244, 241, 254, 0.5);
+  &__item {
+    height: 285px;
+    border-radius: 20px;
+    background: #364d79;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #E5DEFC;
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+    transition: .5s;
+    top: calc(50% - 30px);
+    &Icon {
+      color: #785ACF!important;
+      font-size: 16px;
+    }
+    &Icon-prev {
+      margin-right: 6px;
+    }
+    &Icon-next {
+      margin-left: 6px;
+    }
+    &:hover {
+      background-color: #927BF2;
+    }
+    &:hover &Icon{
+      color: #ffffff!important;
+    }
+  }
+  &__buttonNext {
+    right: 0;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+
+  }
+  &__buttonPrev {
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  }
+}
